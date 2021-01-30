@@ -1,8 +1,23 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app id="app">
+      <v-navigation-drawer
+      color="green"
+      dark
+      expand-on-hover
+      hide-overlay
+      permanent
+      right
+      app
+      >
+      </v-navigation-drawer>
+    
+    <v-content class="px-12 py-3">
+      <v-container fluid>
+        <router-view/>
+      </v-container>
+    </v-content>
+
+  </v-app>
 </template>
 
 <script>
