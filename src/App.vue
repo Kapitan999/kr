@@ -26,7 +26,7 @@
       </v-list-item>
       </v-list>
       <v-divider class="my-3"></v-divider>
-      <v-list-item link :to="путь">
+      <v-list-item link :to="home">
       <v-list-item-icon>
         <v-icon>mdi-home-outline</v-icon>
       </v-list-item-icon>
