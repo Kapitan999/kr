@@ -1,5 +1,6 @@
 <template>
-   <v-app id="app">
+   <v-app id="app"
+   color="grey">
       <v-navigation-drawer
       color="green"
       dark
@@ -25,11 +26,17 @@
       </v-list-item>
       </v-list>
       <v-divider class="my-3"></v-divider>
+
       </v-navigation-drawer>
     
     <v-content class="px-12 py-3">
       <v-container fluid>
         <router-view/>
+      </v-container>
+      <h1>SocialLink</h1>
+      <h3>Новый формат делового общения</h3>
+      <v-container two-line>
+        <img src="https://st.depositphotos.com/1177973/3222/i/950/depositphotos_32221247-stock-photo-office-supplies-with-documents-and.jpg" alt="">
       </v-container>
     </v-content>
 
