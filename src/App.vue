@@ -37,14 +37,14 @@ import HelloWorld from './components/HelloWorld.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
-    v-app
-    v-navigation-drawer
-    v-list
-    v-list-item
-    v-list-item-avatar
-    v-content
-    v-container
+    HelloWorld,
+    v-app,
+    v-navigation-drawer,
+    v-list,
+    v-list-item,
+    v-list-item-avatar,
+    v-content,
+    v-container,
     v-container
   }
 }
