@@ -9,6 +9,17 @@
       right
       app
       >
+    <v-list
+    nav 
+    shaped
+    dense>
+     <v-list-item two line>
+     <v-list-item-avatar>
+     
+     </v-list-item-avatar>
+     </v-list-item>
+    </v-list>
+    
       </v-navigation-drawer>
     
     <v-content class="px-12 py-3">
