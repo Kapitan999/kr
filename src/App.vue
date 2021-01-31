@@ -1,5 +1,5 @@
 <template>
-   <v-app id="app"
+ <v-app id="app"
    color="grey">
       <v-navigation-drawer
       color="green"
@@ -82,7 +82,8 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -90,5 +91,18 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+#nav {
+  padding: 30px;
+
+  a {
+    font-weight: bold;
+    color: #2c3e50;
+
+    &.router-link-exact-active {
+      color: #42b983;
+    }
+  }
 }
 </style>
