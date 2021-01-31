@@ -38,14 +38,14 @@ export default {
   name: 'App',
   components: {
     HelloWorld,
-    v-app,
-    v-navigation-drawer,
-    v-list,
-    v-list-item,
-    v-list-item-avatar,
-    v-content,
-    v-container,
-    v-container
+    v-app: () => import('./app.vue'),
+    v-navigation-drawer: () => import('./app.vue'),
+    v-list: () => import('./app.vue'),
+    v-list-item: () => import('./app.vue'),
+    v-list-item-avatar: () => import('./app.vue'),
+    v-content: () => import('./app.vue'),
+    v-container: () => import('./app.vue'),
+    v-container: () => import('./app.vue')
   }
 }
 </script>
