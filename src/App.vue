@@ -24,7 +24,7 @@
     
     <v-content class="px-12 py-3">
       <v-container fluid>
-        <router-view/>
+        <v-container/>
       </v-container>
     </v-content>
 
@@ -38,6 +38,14 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+    v-app
+    v-navigation-drawer
+    v-list
+    v-list-item
+    v-list-item-avatar
+    v-content
+    v-container
+    v-container
   }
 }
 </script>
